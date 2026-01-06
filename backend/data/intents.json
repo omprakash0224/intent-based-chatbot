@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "admission_query",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "How to apply for admission?",
+        "Tell me about admission"
+      ],
+      "responses": [
+        "You can apply online through the official website. Admission is based on merit."
+      ]
+    },
+    {
+      "tag": "fees_info",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the fees?",
+        "Tell me fees details",
+        "What is the yearly fee?"
+      ],
+      "responses": [
+        "The annual fee is ₹85,000 for B.Tech programs."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thank you, bye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!"
+      ]
+    }
+  ]
+}
